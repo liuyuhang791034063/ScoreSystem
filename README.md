@@ -15,13 +15,16 @@
 如果是其他学校的正方教务系统，可以根据自己学校情况修改education_system.py文件中的url测试。
 
 ### 运行界面：
-登陆界面
+登陆界面   
+
 ![](https://github.com/liuyuhang791034063/ScoreSystem/blob/master/screenshots/screenshot_1.png)
 
-登陆成功
+登陆成功   
+
 ![](https://github.com/liuyuhang791034063/ScoreSystem/blob/master/screenshots/screenshot_2.png)
 
 成绩查询
+
 ![](https://github.com/liuyuhang791034063/ScoreSystem/blob/master/screenshots/screenshot_3.png)
 
 ### 备注：
