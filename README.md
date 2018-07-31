@@ -28,7 +28,7 @@
 去年暑假留校时做过一个，不是很成熟，现在完善了一些基本功能，如果有BUG，请谅解。
 
 ### 联系方式：
-QQ：791034063
-Wechat：liuyuhang791034063
-CSDN：https://blog.csdn.net/Sun_White_Boy
-Github：https://github.com/liuyuhang791034063
+QQ：791034063   
+Wechat：liuyuhang791034063   
+CSDN：https://blog.csdn.net/Sun_White_Boy   
+Github：https://github.com/liuyuhang791034063   
