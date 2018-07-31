@@ -16,13 +16,13 @@
 
 ### 运行界面：
 登陆界面
-![]()
+![](https://github.com/liuyuhang791034063/ScoreSystem/blob/master/screenshots/screenshot_1.png)
 
 登陆成功
-![]()
+![](https://github.com/liuyuhang791034063/ScoreSystem/blob/master/screenshots/screenshot_2.png)
 
 成绩查询
-![]()
+![](https://github.com/liuyuhang791034063/ScoreSystem/blob/master/screenshots/screenshot_3.png)
 
 ### 备注：
 去年暑假留校时做过一个，不是很成熟，现在完善了一些基本功能，如果有BUG，请谅解。
