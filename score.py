@@ -8,7 +8,6 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
@@ -111,6 +110,9 @@ class Ui_Form(object):
         font.setWeight(75)
         self.pushButton_9.setFont(font)
         self.pushButton_9.setObjectName("pushButton_9")
+        self.pushButton_2 = QtWidgets.QPushButton(Form)
+        self.pushButton_2.setGeometry(QtCore.QRect(1000, 60, 91, 23))
+        self.pushButton_2.setObjectName("pushButton_2")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -135,4 +137,5 @@ class Ui_Form(object):
         self.label_2.setText(_translate("Form", "学期:"))
         self.label_3.setText(_translate("Form", "课程性质:"))
         self.pushButton_9.setText(_translate("Form", "成绩统计"))
+        self.pushButton_2.setText(_translate("Form", "关于作者"))
 

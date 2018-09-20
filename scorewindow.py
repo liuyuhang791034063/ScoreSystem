@@ -18,7 +18,7 @@ from PyQt5.QtWidgets import *
 from score import Ui_Form
 import education_system
 from scorestatistics_ui import Ui_Score
-
+from aboutme_ui import Ui_widget
 all_date = dict()
 
 
@@ -52,6 +52,7 @@ class ScoreWindow(QMainWindow, Ui_Form):
         self.pushButton_6.clicked.connect(lambda: self.getdate(self.pushButton_6.text(), all_date))
         self.pushButton_8.clicked.connect(lambda: self.getdate(self.pushButton_8.text(), all_date))
         self.pushButton_9.clicked.connect(lambda: self.getscocestatistics(self.pushButton_9.text(), all_date))
+        self.pushButton_2.clicked.connect(lambda: self.aboutme())
         all_date["date_url"] = url
 
     # 获取成绩信息
@@ -93,6 +94,11 @@ class ScoreWindow(QMainWindow, Ui_Form):
         # 对象显示
         self.sd.show()
 
+    # 显示关于作者
+    def aboutme(self):
+        self.am = AboutMe()
+        self.am.show()
+
 
 class ScoreStatistics(QWidget, Ui_Score):
     def __init__(self, xftj, score):
@@ -117,6 +123,11 @@ class ScoreStatistics(QWidget, Ui_Score):
                 newitem = QTableWidgetItem(score[i][j])
                 self.tableWidget.setItem(i, j, newitem)
 
+
+class AboutMe(QWidget, Ui_widget):
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
 
 
 

@@ -19,7 +19,7 @@ class Ui_Login(object):
         font.setWeight(75)
         Login.setFont(font)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("icon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Login.setWindowIcon(icon)
         self.lineEdit = QtWidgets.QLineEdit(Login)
         self.lineEdit.setGeometry(QtCore.QRect(160, 50, 151, 21))

@@ -252,6 +252,19 @@
     <string>成绩统计</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>60</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关于作者</string>
+   </property>
+  </widget>
  </widget>
  <tabstops>
   <tabstop>comboBox</tabstop>
