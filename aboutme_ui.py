@@ -1,0 +1,92 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'aboutme_ui.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_widget(object):
+    def setupUi(self, widget):
+        widget.setObjectName("widget")
+        widget.resize(420, 224)
+        self.label = QtWidgets.QLabel(widget)
+        self.label.setGeometry(QtCore.QRect(50, 40, 51, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.label_4 = QtWidgets.QLabel(widget)
+        self.label_4.setGeometry(QtCore.QRect(50, 70, 51, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_4.setFont(font)
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(widget)
+        self.label_5.setGeometry(QtCore.QRect(30, 100, 71, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_5.setFont(font)
+        self.label_5.setObjectName("label_5")
+        self.label_2 = QtWidgets.QLabel(widget)
+        self.label_2.setGeometry(QtCore.QRect(40, 130, 51, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_2.setFont(font)
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(widget)
+        self.label_3.setGeometry(QtCore.QRect(40, 160, 61, 31))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_3.setFont(font)
+        self.label_3.setObjectName("label_3")
+        self.label_6 = QtWidgets.QLabel(widget)
+        self.label_6.setGeometry(QtCore.QRect(110, 40, 51, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_6.setFont(font)
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(widget)
+        self.label_7.setGeometry(QtCore.QRect(110, 70, 91, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_7.setFont(font)
+        self.label_7.setObjectName("label_7")
+        self.label_8 = QtWidgets.QLabel(widget)
+        self.label_8.setGeometry(QtCore.QRect(110, 100, 151, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_8.setFont(font)
+        self.label_8.setObjectName("label_8")
+        self.label_9 = QtWidgets.QLabel(widget)
+        self.label_9.setGeometry(QtCore.QRect(110, 130, 281, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_9.setFont(font)
+        self.label_9.setObjectName("label_9")
+        self.label_10 = QtWidgets.QLabel(widget)
+        self.label_10.setGeometry(QtCore.QRect(110, 160, 301, 31))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        self.label_10.setFont(font)
+        self.label_10.setObjectName("label_10")
+
+        self.retranslateUi(widget)
+        QtCore.QMetaObject.connectSlotsByName(widget)
+
+    def retranslateUi(self, widget):
+        _translate = QtCore.QCoreApplication.translate
+        widget.setWindowTitle(_translate("widget", "关于作者"))
+        self.label.setText(_translate("widget", "作者："))
+        self.label_4.setText(_translate("widget", "QQ:"))
+        self.label_5.setText(_translate("widget", "WeChat:"))
+        self.label_2.setText(_translate("widget", "CSDN:"))
+        self.label_3.setText(_translate("widget", "Github:"))
+        self.label_6.setText(_translate("widget", "老刘"))
+        self.label_7.setText(_translate("widget", "791034063"))
+        self.label_8.setText(_translate("widget", "liuyuhang791034063"))
+        self.label_9.setText(_translate("widget", "https://blog.csdn.net/Sun_White_Boy"))
+        self.label_10.setText(_translate("widget", "https://github.com/liuyuhang791034063"))
+
