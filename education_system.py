@@ -122,7 +122,7 @@ def search_date(date_dict):
     student_date['stu_xzb'] = lbl_xzb
     date['student'] = student_date
     all_dates = soup.find('table', id="Datagrid1")
-    if all_dates == None:
+    if all_dates is None:
         MAX_COLUMNS = 6
         all_dates = soup.find('table', id="Datagrid3")
     nums = re.findall(re.compile('<td>(.*?)</td>{1,}', re.S), str(all_dates))
@@ -152,3 +152,30 @@ def search_date(date_dict):
     #     date['score'].append(list)
     return date
 
+
+def search_score_statistics(date_dict):
+    score_data = {
+        '__VIEWSTATE': date_dict.get("vie"),
+        date_dict.get("btn_date")[1]: date_dict.get("btn_date")[0],
+        'ddl_kcxz': date_dict.get("kcxz"),
+        'ddlXN': date_dict.get("xn"),
+        'ddlXQ': date_dict.get("xq"),
+    }
+    header = header1
+    header["Referer"] = date_dict.get("url")
+    date_url = date_dict.get('url')
+    cookie = date_dict.get("cookies")
+    try:
+        score_html = requests.post(url=date_url, headers=header, data=score_data, cookies=cookie)
+    except AttributeError:
+        print(print('获取信息失败'))
+        return
+    soup = BeautifulSoup(score_html.text, 'html.parser')
+    date = dict()
+    date["xftj"] = soup.find('span', id='xftj').text
+    date['score'] = list()
+    score_date = soup.find('table', id='Datagrid2').find_all('tr')
+    for i in score_date:
+        date_list = [j.contents[0] for j in i.contents[1:6]]
+        date['score'].append(date_list)
+    return date

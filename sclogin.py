@@ -16,7 +16,7 @@ class Ui_scui(object):
         icon.addPixmap(QtGui.QPixmap("icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         scui.setWindowIcon(icon)
         self.label = QtWidgets.QLabel(scui)
-        self.label.setGeometry(QtCore.QRect(130, 30, 191, 16))
+        self.label.setGeometry(QtCore.QRect(130, 30, 191, 31))
         font = QtGui.QFont()
         font.setFamily("Arial")
         font.setPointSize(14)

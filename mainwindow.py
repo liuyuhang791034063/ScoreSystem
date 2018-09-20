@@ -19,7 +19,7 @@ from urllib.parse import quote
 from login_ui import Ui_Login
 from aflogin import Ui_afui
 from sclogin import Ui_scui
-from scorewindow import scorewindow
+from scorewindow import ScoreWindow
 import education_system
 
 
@@ -55,7 +55,7 @@ class MainWindow(QMainWindow, Ui_Login):
                         "&xm="+quote(name, encoding="gbk") +\
                         "&gnmkdm=N121605"
 
-        if status == True:
+        if status is True:
             # 返回成功界面
             # education_system.get_box_date(cookie, self.date_url, self.xh)
             self.sc = AfterLoginSc(name, self.date_url, self.xh, cookie)
@@ -107,7 +107,7 @@ class AfterLoginSc(QMainWindow, Ui_scui):
 
     def inquire(self):
         self.hide()
-        self.sc = scorewindow(self.dateurl, self.xh, self.cookie)
+        self.sc = ScoreWindow(self.dateurl, self.xh, self.cookie)
         self.sc.show()
 
     def keyPressEvent(self, event):

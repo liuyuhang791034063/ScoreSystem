@@ -21,15 +21,15 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>60</y>
-     <width>61</width>
-     <height>21</height>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Arial</family>
-     <pointsize>10</pointsize>
+     <pointsize>9</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -41,16 +41,16 @@
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>60</y>
-     <width>61</width>
-     <height>21</height>
+     <x>90</x>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Arial</family>
-     <pointsize>10</pointsize>
+     <pointsize>9</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -62,16 +62,16 @@
   <widget class="QPushButton" name="pushButton_5">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>60</y>
-     <width>61</width>
-     <height>21</height>
+     <x>170</x>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Arial</family>
-     <pointsize>10</pointsize>
+     <pointsize>9</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -83,16 +83,16 @@
   <widget class="QPushButton" name="pushButton_6">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>60</y>
-     <width>91</width>
-     <height>21</height>
+     <x>250</x>
+     <y>50</y>
+     <width>101</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Arial</family>
-     <pointsize>10</pointsize>
+     <pointsize>9</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -104,16 +104,16 @@
   <widget class="QPushButton" name="pushButton_8">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>60</y>
-     <width>81</width>
-     <height>21</height>
+     <x>360</x>
+     <y>50</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Arial</family>
-     <pointsize>10</pointsize>
+     <pointsize>9</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -140,13 +140,13 @@
     </font>
    </property>
    <property name="text">
-    <string>学年：</string>
+    <string>学年:</string>
    </property>
   </widget>
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>60</x>
      <y>20</y>
      <width>101</width>
      <height>21</height>
@@ -156,9 +156,9 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>160</x>
+     <x>180</x>
      <y>20</y>
-     <width>41</width>
+     <width>51</width>
      <height>21</height>
     </rect>
    </property>
@@ -171,15 +171,15 @@
     </font>
    </property>
    <property name="text">
-    <string>学期：</string>
+    <string>学期:</string>
    </property>
   </widget>
   <widget class="QComboBox" name="comboBox_2">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>230</x>
      <y>20</y>
-     <width>31</width>
+     <width>41</width>
      <height>21</height>
     </rect>
    </property>
@@ -187,9 +187,9 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>280</x>
      <y>20</y>
-     <width>72</width>
+     <width>91</width>
      <height>21</height>
     </rect>
    </property>
@@ -202,13 +202,13 @@
     </font>
    </property>
    <property name="text">
-    <string>课程性质：</string>
+    <string>课程性质:</string>
    </property>
   </widget>
   <widget class="QComboBox" name="comboBox_3">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>370</x>
      <y>20</y>
      <width>121</width>
      <height>21</height>
@@ -229,6 +229,27 @@
    </property>
    <property name="columnCount">
     <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>50</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>成绩统计</string>
    </property>
   </widget>
  </widget>
